@@ -83,8 +83,6 @@
 			linux,default-trigger = "heartbeat";
 			pinctrl-names = "default";
 			pinctrl-0 = <&led_status_enable_h>;
-			retain-state-suspended;
-			status = "okay";
 		};
 	};
 
@@ -703,6 +701,7 @@
 
 &rknpu {
 	rknpu-supply = <&vdd_npu>;
+	mem-supply = <&vdd_npu>;
 	status = "okay";
 };
 

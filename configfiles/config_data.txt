@@ -16,6 +16,11 @@ CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_yyy_h1=y
 CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_jp_tvbox=y
 CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_panther_x2=y
 CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_dg_nas-lite=y
+CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_ezpro_mrkaio-m68s=y
+CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_ezpro_mrkaio-m68s-plus=y
+CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_dg_tn3568=y
+CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_yijiahe_jm10=y
+CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_cyber3588_aib=y
 
 CONFIG_PACKAGE_brcmfmac-firmware-panther-x2=y
 CONFIG_PACKAGE_brcmfmac-firmware-jp-tvbox=y
@@ -46,7 +51,6 @@ CONFIG_PACKAGE_nginx-util=y
 CONFIG_PACKAGE_nginx-mod-luci=y
 CONFIG_PACKAGE_luci-nginx=y
 
-CONFIG_PACKAGE_gcc=y
 CONFIG_PACKAGE_jq=y
 CONFIG_PACKAGE_ntpdate=y
 CONFIG_PACKAGE_hdparm=y
